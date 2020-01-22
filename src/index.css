@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f6f6f6;
+}
+form {
+  margin-top: 60px;
+  padding: 20px;
+}

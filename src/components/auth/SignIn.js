@@ -27,7 +27,7 @@ class SignIn extends React.Component {
             <input type="password" id="password" onChange={this.handleChange} />
           </div>
           <div className="inputField">
-            <button className="btn pink lighten-1 z-depth-0">Login</button>
+            <button className="btn waves-effect waves-light lighten-1 z-depth-0">Login</button>
           </div>
         </form>
       </div>
