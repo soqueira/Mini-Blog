@@ -8,7 +8,7 @@ export default () => {
         <NavLink to="/createproject">New Project</NavLink>
       </li>
       <li>
-        <NavLink to="/">Log Out</NavLink>
+        <NavLink to="/">LogOut</NavLink>
       </li>
       <li>
         <NavLink to="/" className="btn waves-effect waves-light btn-floating pink lighten-1">
