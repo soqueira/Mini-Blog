@@ -8,9 +8,8 @@ import { connect } from "react-redux";
 
 const Navbar = props => {
   const { auth, profile } = props;
-  const initial = profile.userName;
   const links = auth.uid ? (
-    <SignedInLinks initial={initial ? initial[0] : null} />
+    <SignedInLinks letter={profile.userName ? profile.userName[0] : null} />
   ) : (
     <SignedOutLinks />
   );

@@ -3,7 +3,8 @@ import { NavLink } from "react-router-dom";
 import { connect } from "react-redux";
 import { signOut } from "../../store/actions/authActions";
 
-const SignedInLinks = (props) => {
+const SignedInLinks = props => {
+  const { letter } = props;
   return (
     <ul className="right">
       <li>
@@ -13,11 +14,8 @@ const SignedInLinks = (props) => {
         <NavLink to="/">LogOut</NavLink>
       </li>
       <li>
-        <NavLink
-          to="/"
-          className="btn waves-effect waves-light btn-floating lighten-1"
-        >
-          {props.initial}
+        <NavLink to="/">
+          {letter}
         </NavLink>
       </li>
     </ul>
